@@ -14,6 +14,6 @@ import sys
 
 
 
-#extensions = ["sphinx_sqlalchemy"]
+extensions = ["sphinx_sqlalchemy"]
 
 html_theme = "furo"
