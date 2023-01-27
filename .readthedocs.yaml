@@ -5,7 +5,7 @@ python:
   install:
     - requirements: docs/requirements.txt
     - method: pip
-      path: .
+      path: ../
       extra_requirements:
         - docs
 
@@ -14,3 +14,8 @@ sphinx:
   configuration: docs/conf.py
   builder: html
   fail_on_warning: true
+
+
+python:
+  install:
+    - requirements: docs/requirements.txt
