@@ -8,16 +8,11 @@ Example
 
 ::
 
-    .. sqla-model:: example.models.User
-
-    .. sqla-model:: ~example.models.Address
+    .. sqla-model:: example.models.students
 
 
-.. sqla-model:: example.models.User
 
-.. sqla-model:: ~example.models.Address
+.. sqla-model:: example.models.students
 
-This was created from:
 
-.. literalinclude:: example/models.py
-    :lines: 1-
+
